@@ -38,6 +38,12 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        
+        <dependency>
+        	<groupId>org.projectlombok</groupId>
+        	<artifactId>lombok-maven-plugin</artifactId>
+        	<version>1.16.12.0</version>
+    	</dependency>
 
         <!-- Use MySQL Connector-J -->
 
@@ -45,10 +51,6 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
-        
-        
-
-       
     </dependencies>
 
     <properties>
